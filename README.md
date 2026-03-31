@@ -1,6 +1,6 @@
 # Neon Tetris Words
 
-![Icon](assets/icone.png)
+![Icon](assets/67cdf844-cc1e-4ace-b299-d964ae65e561.jpg)
 
 **Neon Tetris Words** é um jogo arcade 2D com temática neon que combina as mecânicas clássicas de Tetris com o desafio de formar palavras. Sobreviva à queda das peças, complete linhas e forme palavras válidas em português para ganhar pontos extras e acumular combos!
 
