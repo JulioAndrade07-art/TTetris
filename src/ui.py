@@ -129,8 +129,8 @@ def resource_path(relative_path):
 
 def init_backgrounds():
     global BG1_FRAMES, BG2_FRAMES
-    BG1_FRAMES = load_gif_frames(resource_path("bg1.gif"), WINDOW_WIDTH, WINDOW_HEIGHT, alpha=150)
-    BG2_FRAMES = load_gif_frames(resource_path("bg2.gif"), WINDOW_WIDTH, WINDOW_HEIGHT, alpha=180)
+    BG1_FRAMES = load_gif_frames(resource_path("assets/bg1.gif"), WINDOW_WIDTH, WINDOW_HEIGHT, alpha=150)
+    BG2_FRAMES = load_gif_frames(resource_path("assets/bg2.gif"), WINDOW_WIDTH, WINDOW_HEIGHT, alpha=180)
 
 def get_current_frame(frames):
     if not frames:

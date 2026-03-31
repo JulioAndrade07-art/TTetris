@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['main.py'],
+    ['src/main.py'],
     pathex=[],
     binaries=[],
-    datas=[('bg1.gif', '.'), ('bg2.gif', '.'), ('sfx_point.mp3', '.'), ('theme.mp3', '.'), ('br-utf8.txt', '.'), ('icon.jpg', '.')],
+    datas=[('assets/bg1.gif', 'assets'), ('assets/bg2.gif', 'assets'), ('assets/sfx_point.mp3', 'assets'), ('assets/theme.mp3', 'assets'), ('data/br-utf8.txt', 'data'), ('assets/icon.jpg', 'assets')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['icon.ico'],
+    icon=['assets/icon.ico'],
 )

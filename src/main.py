@@ -21,7 +21,7 @@ WIN = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Tetris Words")
 
 try:
-    icon_img = pygame.image.load(resource_path("icon.jpg"))
+    icon_img = pygame.image.load(resource_path("assets/icon.jpg"))
     pygame.display.set_icon(icon_img)
 except:
     pass
@@ -30,13 +30,13 @@ import ui
 ui.init_backgrounds()
 
 try:
-    sfx_point = pygame.mixer.Sound(resource_path("sfx_point.mp3"))
+    sfx_point = pygame.mixer.Sound(resource_path("assets/sfx_point.mp3"))
 except:
     sfx_point = None
 
 current_volume = 0.5
 try:
-    pygame.mixer.music.load(resource_path("theme.mp3"))
+    pygame.mixer.music.load(resource_path("assets/theme.mp3"))
     pygame.mixer.music.set_volume(current_volume)
     pygame.mixer.music.play(-1)
 except Exception as e:

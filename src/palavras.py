@@ -10,7 +10,7 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 # Read the massive new utf8 dict file
-WORDS_FILE_PATH = resource_path("br-utf8.txt")
+WORDS_FILE_PATH = resource_path("data/br-utf8.txt")
 
 def strip_accents(text):
     # Unicodedata normalizes specific accented strings like 'ã' into base characters 'a'
